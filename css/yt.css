@@ -1,0 +1,17 @@
+.yt-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .yt-section {
+    flex-direction: column;
+    padding: 5vw;
+  }
+}
+
+.yt-element {
+  padding: 30px;
+}
